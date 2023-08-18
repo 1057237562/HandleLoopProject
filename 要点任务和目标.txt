@@ -1,0 +1,25 @@
+学习要点：
+1，曲面的亏格和边界概念
+2，交互可视化工具G3dOGL.exe、miniMeshViewer.exe和blader.exe的使用（入门示例工程zzzdemo文件夹中）
+3，三角网格元素（点、边、面）的属性（颜色、法向、参数坐标等）在m文件格式中的表示
+4，三角网格元素（点、边、面）的属性（颜色、法向、参数坐标等）在MeshLib半边结构中的表示，如何从文件中读取和保存
+5，参数坐标与纹理贴图原理（vertex uv, Corner uv定义在半边上的uv）
+6，三角网格拓扑操作实现：splitEdge，splitFace, edgeSwap
+7，MeshLib半边结构库的规范使用（继承使用，不更改库代码），工程构建规范
+8，实现拓扑圆盘调和映照代码
+
+任务：
+0，适用现有exe工具打开和编辑三角网格
+1，用visual studio打开三角网格、四面体网格、OpenGL示例性工程，并运行程序；
+2，通读MeshLib半边结构所有源码（尤其是不熟悉C++编程的同学）
+3，读懂TriTopOper.h中的splitEdge，splitFace, edgeSwap代码
+4，实现拓扑圆盘调和映照代码
+5，（选）基于拓扑圆盘调和映照生成四边形网格
+6，（选）拓扑球面的调和映照
+
+资料：
+入门示例工程压缩包
+网格课程视频链接：https://space.bilibili.com/19252423/channel/seriesdetail?sid=2744576
+https://www.bilibili.com/video/BV14p4y1q7Bm
+https://www.bilibili.com/video/BV1VK4y1v7nX
+http://conformalgeometry.org/lectures/2020/

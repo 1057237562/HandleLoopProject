@@ -1,0 +1,15 @@
+本文件夹下有四个工程：
+
+basic_example : 曲面三角网格的读入和操作，参考：			https://www.bilibili.com/video/BV14p4y1q7Bm?spm_id_from=333.999.0.0
+
+basic_example_TMesh : 体网格的读入和操作，参考：
+	https://www.bilibili.com/video/BV1rZ4y1T7Cp?spm_id_from=333.999.0.0
+
+basic_opengl : 使用opengl对基本的点边面进行可视化与交互
+
+basic_meshviewer: 融合openGL与半边结构，读入三角网格模型并进行可视化
+
+zzzlib :  源码
+zzzdata : 三维模型文件
+zzzdemo : 工具exe，包括简单的可视化，操作工具，可以直接用里面的exe打开zzzdata里面的三维模型文件
+zzzbin : 工程产生的exe
